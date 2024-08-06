@@ -7,19 +7,19 @@ const Services = () => {
       id: 1,
       title: String.FRONTED,
       desc: String.FRONTED_DESC,
-      logo: "/design.png",
+      logo: "/personalPortfolio/design.png",
     },
     {
       id: 2,
       title: String.BACKEND,
       desc: String.BACKEND_DESC,
-      logo: "/backend.png",
+      logo: "/personalPortfolio/backend.png",
     },
     {
       id: 3,
       title: String.ONLINE,
       desc: String.ONLINE_DESC,
-      logo: "/teaching.png",
+      logo: "/personalPortfolio/teaching.png",
     },
   ];
 
