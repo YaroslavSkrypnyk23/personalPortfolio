@@ -11,8 +11,8 @@ const Services = () => {
     },
     {
       id: 2,
-      title: String.BACKEND,
-      desc: String.BACKEND_DESC,
+      title: String.REACT,
+      desc: String.REACT_DESC,
       logo: "/personalPortfolio/backend.png",
     },
     {
@@ -32,9 +32,9 @@ const Services = () => {
         <div className="w-full border-[1px] mx-4 mt-[-2px]"></div>
         <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
       </div>
-      <div className="flex justify-around mt-16">
+      <div className="flex justify-around mt-16 sm:flex-wrap sm:gap-14">
         {servicesList.map((item) => (
-          <div className="text-center flex flex-col justify-center items-center gap-6">
+          <div className="text-center flex flex-col justify-between items-center  max-w-[280px] h-[340px] shadow-2xl p-4 rounded-2xl hover:scale-[1.1] transition-all ease-in-out">
             <div className="bg-gray-200 rounded-full w-[80px] h-[80px]">
               <img
                 src={item.logo}
